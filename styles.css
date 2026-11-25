@@ -482,7 +482,7 @@ h1 em {
 }
 
 /* Underlined email link with inline arrow accent. */
-.email-link {
+.contact-link {
   display: inline-flex;
   align-items: center;
   gap: 14px;
@@ -494,7 +494,7 @@ h1 em {
 }
 
 /* Orange color highlights the email arrow. */
-.email-link span {
+.contact-link span {
   color: var(--orange);
 }
 
