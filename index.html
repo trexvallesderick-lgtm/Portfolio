@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Character encoding ensures special characters display correctly. -->
+  <meta charset="UTF-8">
+  <!-- The viewport setting enables responsive mobile layouts. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Search engines and browsers use this description. -->
+  <meta name="description"
+    content="Information technology portfolio of Derick Tresvalles">
+  <title>Derick Tresvalles | IT Portfolio</title>
+  <!-- Connect the external stylesheet to this HTML page. -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Sticky navigation appears across the top of the site. -->
+  <nav aria-label="Primary navigation">
+    <div class="shell nav-inner">
+      <!-- Brand identity links back to the About section. -->
+      <a class="brand" href="#about" aria-label="Go to about section">
+        <span class="brand-mark">DT</span>
+        <span class="brand-name">Derick Tresvalles</span>
+      </a>
+      <!-- These links jump visitors directly to portfolio sections. -->
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero section introduces Derick and his course. -->
+    <header class="shell hero">
+      <div>
+        <!-- Small introductory portfolio label. -->
+        <div class="eyebrow">IT Portfolio - 2026</div>
+        <!-- Main display name for the portfolio. -->
+        <h1>Derick<br><em>Tresvalles.</em></h1>
+        <!-- Brief introduction shown beneath the name. -->
+        <p class="hero-copy">
+          Bachelor of Science in Information Technology <br> student building
+          useful, thoughtful digital experiences.
+        </p>
+        <!-- Main call-to-action buttons. -->
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore projects</a>
+          <a class="button" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <!-- Course summary placed beside the main hero content. -->
+      <aside class="hero-index" aria-label="Course and year">
+        <strong>IT4</strong>
+        <span>Bachelor of Science<br>in Information Technology</span>
+      </aside>
+    </header>
+
+    <!-- About section contains the profile and biography. -->
+    <section class="section-block" id="about">
+      <div class="shell">
+        <!-- Shared heading structure with title and section number. -->
+        <div class="section-heading reveal">
+          <h2>About</h2>
+          <span class="section-number">01</span>
+        </div>
+        <div class="about-grid">
+          <!-- Profile image card sourced from the media folder. -->
+          <div class="profile-card reveal">
+            <img class="profile-monogram" src="media/my_picture.jpeg"
+              alt="Derick Tresvalles">
+          </div>
+          <!-- Course details and personal biography. -->
+          <div class="about-copy reveal">
+            <span class="course">Bachelor of Science in Information Technology —
+              IT4</span>
+            <p>I am an Information Technology student who enjoys turning ideas
+              into practical digital solutions. I am passionate about personal
+              projects that solve my everyday needs and improve how I organize,
+              track, and manage important activities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section presents technical and design abilities. -->
+    <section class="section-block" id="skills">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <h2>Skills</h2>
+          <span class="section-number">02</span>
+        </div>
+        <!-- Three cards separate the major skill categories. -->
+        <div class="skills-grid reveal">
+          <article class="skill-card">
+            <h3>Technical</h3>
+            <p>HTML5, CSS3, JavaScript, Web APIs, Git, and basic problem-solving
+              for digital applications.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Development</h3>
+            <p>Building responsive web interfaces, organizing project features,
+              testing functionality, and improving usability.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Design</h3>
+            <p>Creating clean layouts, accessible interfaces, consistent
+              visuals, and practical user experiences.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section provides links to the GitHub-hosted projects. -->
+    <section class="section-block" id="projects">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <h2>Projects</h2>
+          <span class="section-number">03</span>
+        </div>
+        <div class="projects-grid">
+          <!-- MediaPlay project card opens its live GitHub Pages site. -->
+          <a class="project-card reveal"
+            href="https://trexvallesderick-lgtm.github.io/Mediaplay/"
+            target="_blank" rel="noopener noreferrer">
+            <div class="project-meta">
+              <span>Project 01</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>MediaPlay</h3>
+            <p>A media-focused project exploring organized playback and digital
+              content experiences.</p>
+          </a>
+          <!-- SpendWise project card opens its live GitHub Pages site. -->
+          <a class="project-card reveal"
+            href="https://trexvallesderick-lgtm.github.io/SpendWise/"
+            target="_blank" rel="noopener noreferrer">
+            <div class="project-meta">
+              <span>Project 02</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3>SpendWise</h3>
+            <p>A personal finance workspace for budgets, savings, reports, and
+              private account tracking.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact section contains the email call to action and footer. -->
+  <section class="contact" id="contact">
+    <div class="shell">
+      <div class="section-heading reveal">
+        <h2>Contact</h2>
+        <span class="section-number">04</span>
+      </div>
+      <div class="contact-main reveal">
+        <!-- Friendly invitation to begin an email conversation. -->
+        <h2>Let’s start a conversation.</h2>
+        <!-- mailto opens the visitor's installed email application. -->
+        <a class="email-link" href="mailto:dtresvalles@ccc.edu.ph">
+          dtresvalles@ccc.edu.ph <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <!-- Footer identifies the owner and portfolio activity. -->
+      <footer>
+        <span>Derick Tresvalles</span>
+        <span>Finals Activity CEEL Portfolio</span>
+      </footer>
+    </div>
+  </section>
+
+  <!-- External script controls reveal animations while scrolling. -->
+  <script src="portfolio.js"></script>
+</body>
+
+</html>
